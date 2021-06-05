@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss tailwind.css -o dist/css/style.css",
+    "watch": "postcss tailwind.css -o dist/css/style.css --watch"
   },
   "keywords": [],
   "author": "Csiszár Alex <csiszaralex@gmail.com>",
