@@ -1,11 +1,14 @@
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     debugScreens: {
       position: ['top', 'left'],
     },
-    extend: {},
+    extend: {
+      fontFamily: { headline: ['Oswald'] },
+      colors: { mainColor: '#212f49' },
+    },
   },
   variants: {
     extend: {},
